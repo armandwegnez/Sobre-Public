@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9334B4F92D466466007749D9 /* Sobre Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9334B4F82D466466007749D9 /* Sobre Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9334B4FE2D466466007749D9 /* SobreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334B4FD2D466466007749D9 /* SobreApp.swift */; };
+		9334B5002D466466007749D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334B4FF2D466466007749D9 /* ContentView.swift */; };
+		9334B5022D466467007749D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9334B5012D466467007749D9 /* Assets.xcassets */; };
+		9334B5052D466467007749D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9334B5042D466467007749D9 /* Preview Assets.xcassets */; };
+		9334B5142D4672E8007749D9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334B5132D4672E8007749D9 /* Drink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9334B4FA2D466466007749D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9334B4EC2D466466007749D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9334B4F72D466466007749D9;
+			remoteInfo = "Sobre Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9334B50B2D466467007749D9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9334B4F92D466466007749D9 /* Sobre Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9334B4F22D466466007749D9 /* Sobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9334B4F82D466466007749D9 /* Sobre Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sobre Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9334B4FD2D466466007749D9 /* SobreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreApp.swift; sourceTree = "<group>"; };
+		9334B4FF2D466466007749D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9334B5012D466467007749D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9334B5042D466467007749D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9334B5132D4672E8007749D9 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		935EB9CC2D470C4A00556646 /* Sobre Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sobre Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		935EB9BF2D46FDFA00556646 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Analysis/Views/AnalysisView.swift,
+				Drinks/Views/DrinkSelectionView.swift,
+				Drinks/Views/DrinkSummaryView.swift,
+				Metabolism/Views/MetabolismConfigView.swift,
+				Weight/Views/WeightManagement.swift,
+			);
+			target = 9334B4F72D466466007749D9 /* Sobre Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		935EB9BC2D46FDCA00556646 /* Features */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (935EB9BF2D46FDFA00556646 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Features; sourceTree = "<group>"; };
+		935EB9C32D46FE3C00556646 /* Health */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Health; sourceTree = "<group>"; };
+		935EB9C82D46FE8700556646 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+		93D450EC2D4A283400366597 /* Alcohol */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Alcohol; sourceTree = "<group>"; };
+		93D450F62D4A3F4F00366597 /* Metabolism */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Metabolism; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9334B4F52D466466007749D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9334B4EB2D466466007749D9 = {
+			isa = PBXGroup;
+			children = (
+				9334B4FC2D466466007749D9 /* Sobre Watch App */,
+				9334B4F32D466466007749D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9334B4F32D466466007749D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9334B4F22D466466007749D9 /* Sobre.app */,
+				9334B4F82D466466007749D9 /* Sobre Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9334B4FC2D466466007749D9 /* Sobre Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				935EB9CC2D470C4A00556646 /* Sobre Watch App.entitlements */,
+				935EB9C72D46FE7700556646 /* Shared */,
+				935EB9C22D46FE2D00556646 /* Services */,
+				935EB9BC2D46FDCA00556646 /* Features */,
+				9334B5132D4672E8007749D9 /* Drink.swift */,
+				9334B4FD2D466466007749D9 /* SobreApp.swift */,
+				9334B4FF2D466466007749D9 /* ContentView.swift */,
+				9334B5012D466467007749D9 /* Assets.xcassets */,
+				9334B5032D466467007749D9 /* Preview Content */,
+			);
+			path = "Sobre Watch App";
+			sourceTree = "<group>";
+		};
+		9334B5032D466467007749D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9334B5042D466467007749D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		935EB9C22D46FE2D00556646 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93D450F62D4A3F4F00366597 /* Metabolism */,
+				93D450EC2D4A283400366597 /* Alcohol */,
+				935EB9C32D46FE3C00556646 /* Health */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		935EB9C72D46FE7700556646 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				935EB9C82D46FE8700556646 /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9334B4F12D466466007749D9 /* Sobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9334B50C2D466467007749D9 /* Build configuration list for PBXNativeTarget "Sobre" */;
+			buildPhases = (
+				9334B4F02D466466007749D9 /* Resources */,
+				9334B50B2D466467007749D9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9334B4FB2D466466007749D9 /* PBXTargetDependency */,
+			);
+			name = Sobre;
+			productName = Sobre;
+			productReference = 9334B4F22D466466007749D9 /* Sobre.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9334B4F72D466466007749D9 /* Sobre Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9334B5082D466467007749D9 /* Build configuration list for PBXNativeTarget "Sobre Watch App" */;
+			buildPhases = (
+				9334B4F42D466466007749D9 /* Sources */,
+				9334B4F52D466466007749D9 /* Frameworks */,
+				9334B4F62D466466007749D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				935EB9C32D46FE3C00556646 /* Health */,
+				935EB9C82D46FE8700556646 /* Components */,
+				93D450EC2D4A283400366597 /* Alcohol */,
+				93D450F62D4A3F4F00366597 /* Metabolism */,
+			);
+			name = "Sobre Watch App";
+			productName = "Sobre Watch App";
+			productReference = 9334B4F82D466466007749D9 /* Sobre Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9334B4EC2D466466007749D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9334B4F12D466466007749D9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9334B4F72D466466007749D9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9334B4EF2D466466007749D9 /* Build configuration list for PBXProject "Sobre" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9334B4EB2D466466007749D9;
+			productRefGroup = 9334B4F32D466466007749D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9334B4F12D466466007749D9 /* Sobre */,
+				9334B4F72D466466007749D9 /* Sobre Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9334B4F02D466466007749D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9334B4F62D466466007749D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9334B5052D466467007749D9 /* Preview Assets.xcassets in Resources */,
+				9334B5022D466467007749D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9334B4F42D466466007749D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9334B5002D466466007749D9 /* ContentView.swift in Sources */,
+				9334B5142D4672E8007749D9 /* Drink.swift in Sources */,
+				9334B4FE2D466466007749D9 /* SobreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9334B4FB2D466466007749D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9334B4F72D466466007749D9 /* Sobre Watch App */;
+			targetProxy = 9334B4FA2D466466007749D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9334B5062D466467007749D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9334B5072D466467007749D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9334B5092D466467007749D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sobre Watch App/Sobre Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sobre Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FG6TY2RZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sobre;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cette appli a besoin des metrics de coeur";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Cette appli a besoin des metrics de coeur";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armandwegnez.Sobre.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		9334B50A2D466467007749D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sobre Watch App/Sobre Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sobre Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FG6TY2RZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sobre;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cette appli a besoin des metrics de coeur";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Cette appli a besoin des metrics de coeur";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armandwegnez.Sobre.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		9334B50D2D466467007749D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4FG6TY2RZ;
+				INFOPLIST_KEY_CFBundleDisplayName = Sobre;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armandwegnez.Sobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9334B50E2D466467007749D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4FG6TY2RZ;
+				INFOPLIST_KEY_CFBundleDisplayName = Sobre;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armandwegnez.Sobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9334B4EF2D466466007749D9 /* Build configuration list for PBXProject "Sobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9334B5062D466467007749D9 /* Debug */,
+				9334B5072D466467007749D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9334B5082D466467007749D9 /* Build configuration list for PBXNativeTarget "Sobre Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9334B5092D466467007749D9 /* Debug */,
+				9334B50A2D466467007749D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9334B50C2D466467007749D9 /* Build configuration list for PBXNativeTarget "Sobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9334B50D2D466467007749D9 /* Debug */,
+				9334B50E2D466467007749D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9334B4EC2D466466007749D9 /* Project object */;
+}
