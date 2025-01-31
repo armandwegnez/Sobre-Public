@@ -1,23 +1,31 @@
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+MIT License
 
-Copyright © 2025 Armand Wegnez
+Copyright (c) 2025 Armand S Wegnez
 
-Ce projet est sous licence **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### **Vous avez le droit de :**
-✔ **Partager** – copier, distribuer et communiquer le matériel par tous moyens et sous tous formats.  
-✔ **Adapter** – remixer, transformer et créer à partir du matériel.  
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### **À condition de respecter les termes suivants :**
-1️⃣ **Attribution** – Vous devez créditer l’auteur original (Armand Wegnez), inclure un lien vers la licence et indiquer si des modifications ont été effectuées. Vous pouvez le faire de manière raisonnable, mais **pas d'une manière qui suggère que l’auteur vous soutient ou approuve votre utilisation du projet.**
+ADDITIONAL DISCLAIMER FOR ALCOHOL-RELATED CALCULATIONS:
+THIS SOFTWARE IS AN EXPERIMENTAL PROJECT AND PROOF OF CONCEPT ONLY. 
+IT IS NOT INTENDED FOR USE IN DETERMINING BLOOD ALCOHOL CONTENT FOR ANY 
+PRACTICAL PURPOSE. THE CALCULATIONS AND ESTIMATES PROVIDED BY THIS SOFTWARE 
+ARE APPROXIMATE AND UNRELIABLE. DO NOT USE THIS SOFTWARE TO MAKE DECISIONS 
+ABOUT DRIVING, OPERATING MACHINERY, OR ANY OTHER ACTIVITIES THAT COULD 
+ENDANGER LIFE OR PROPERTY.
 
-2️⃣ **Pas d’Utilisation Commerciale** – Vous **n’avez pas le droit** d’utiliser ce projet à des fins commerciales, directement ou indirectement.  
-
-3️⃣ **Pas de Restrictions Supplémentaires** – Vous **ne pouvez pas** appliquer des conditions légales ou des mesures technologiques qui restreindraient légalement d'autres personnes à faire ce que la licence permet.
-
-### **Remarque importante :**
-- Cette licence **ne s’applique qu’à l’usage personnel et non commercial**.
-- Pour toute utilisation commerciale ou demande de licence spécifique, merci de me contacter à : **[Ton email ou lien de contact]**.
-
-### **Texte complet de la licence :**
-[https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. THE AUTHORS SPECIFICALLY DISCLAIM ANY LIABILITY FOR ANY DECISIONS
+OR ACTIONS TAKEN BASED ON THE SOFTWARE'S CALCULATIONS OR ESTIMATES OF
+BLOOD ALCOHOL CONTENT.
